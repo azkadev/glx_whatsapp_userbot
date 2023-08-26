@@ -1,6 +1,6 @@
-# GLX TELEGRAM Userbot
+# GLX Whatsapp Userbot
 
-Telegramu userbot gratis dengan banyak feature
+Whatsapp userbot gratis dengan banyak feature
 
 
 <h3 align="center">
@@ -76,23 +76,23 @@ Buka Terminal
 - Build
   
 ```bash
-sudo docker build -t glx_telegram_userbot .
+sudo docker build -t glx_whatsapp_userbot .
 ```
 
 - Run
   Sebelum run pastikan kamu sudah build dahulu
 ```bash
-sudo docker run -d --network host --memory="1g" --memory-swap="1g" --restart always --name glx_telegram_userbot -v $(pwd):/app glx_telegram_userbot
+sudo docker run -d --network host --memory="1g" --memory-swap="1g" --restart always --name glx_whatsapp_userbot -v $(pwd):/app glx_whatsapp_userbot
 ```
 
 - Restart
   Jika kamu ingin mengganti config dengan yang baru silahkan restart ya
 ```bash 
-sudo docker restart glx_telegram_userbot
+sudo docker restart glx_whatsapp_userbot
 ```
 
 - Stop
   
 ```bash 
-sudo docker stop glx_telegram_userbot
+sudo docker stop glx_whatsapp_userbot
 ```
