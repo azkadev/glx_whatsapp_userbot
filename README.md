@@ -1,98 +1,80 @@
-# GLX Whatsapp Userbot
+IyBHTFggV2hhdHNhcHAgVXNlcmJvdAoKV2hhdHNhcHAgdXNlcmJvdCBncmF0
+aXMgZGVuZ2FuIGJhbnlhayBmZWF0dXJlCgoKPGgzIGFsaWduPSJjZW50ZXIi
+PgogIEdMWCBURUxFR1JBTSBVU0VSQk9UIEJZIEFaS0FERVYKICA8aW1nIHNy
+Yz0iaHR0cHM6Ly9tZWRpYS5naXBoeS5jb20vbWVkaWEvaHZSSkNMRnpjYXNy
+UjRpYTd6L2dpcGh5LmdpZiIgd2lkdGg9IjI4Ij4KPC9oMz4KCjwhLS0gVHlw
+aW5nIFNWRyBieSBhemthZGV2IC0gaHR0cHM6Ly9naXRodWIuY29tL2F6a2Fk
+ZXYvcmVhZG1lLXR5cGluZy1zdmcgLS0+CjxwIGFsaWduPSJjZW50ZXIiPgo8
+YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vYXprYWRldiI+CiAgICAgICAg
+PGltZyBzcmM9Imh0dHBzOi8vdGVsZWdyYS5waC9maWxlL2U5MGJkZWFiODM5
+MGI4YzBkOWRmMi5wbmciIGFsdD0iU3BlY3RhIgogICAgICAgICAgICB3aWR0
+aD0iMzEyIgogICAgICAgICAgICBoZWlnaHQ9IjMxMiI+CiAgICA8L2E+Cjwv
+cD4KCjwhLS0gU29jaWFsIGljb25zIHNlY3Rpb24gLS0+CjxwIGFsaWduPSJj
+ZW50ZXIiPiAgIAogIDxhIGhyZWY9Imh0dHBzOi8veW91dHViZS5jb20vQGF6
+a2FkZXYiPgogwqAgIDxpbWcgYWx0PSJ5b3V0dWJlIiB0aXRsZT0iRm9sbG93
+IG1lIG9uIFlvdXR1YmUiIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9i
+YWRnZS9Zb3V0dWJlLSUyM0U0NDA1Ri5zdmc/JnN0eWxlPWZvci10aGUtYmFk
+Z2UmbG9nbz15b3V0dWJlJmxvZ29Db2xvcj13aGl0ZSIvPgogICAgPC9hPgog
+IDxhIGhyZWY9Imh0dHBzOi8vdC5tZS9hemthZGV2Ij4KIMKgICA8aW1nIGFs
+dD0idGVsZWdyYW0iIHRpdGxlPSJGb2xsb3cgbWUgb24gVGVsZWdyYW0iIHNy
+Yz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9UZWxlZ3JhbS0yQ0E1
+RTA/c3R5bGU9Zm9yLXRoZS1iYWRnZSZsb2dvPXRlbGVncmFtJmxvZ29Db2xv
+cj13aGl0ZSkiLz4KICAgIDwvYT4gCiAgPGEgaHJlZj0iaHR0cHM6Ly9hemth
+ZGV2Lm5ldGxpZnkuYXBwLyI+CiDCoCAgPGltZyBhbHQ9IldlYnNpdGUiIHRp
+dGxlPSJGb2xsb3cgbWUgb24gV2ViIiBzcmM9Imh0dHBzOi8vaW1nLnNoaWVs
+ZHMuaW8vYmFkZ2UvV2Vic2l0ZS0lMjNFNDQwNUYuc3ZnPyZzdHlsZT1mb3It
+dGhlLWJhZGdlJmxvZ289ZmlyZWZveCZsb2dvQ29sb3I9d2hpdGUiLz4KICAg
+IDwvYT4gIAogIDxhIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9hemthZGV2
+Ij4KIMKgICA8aW1nIGFsdD0iR2l0aHViIiB0aXRsZT0iRm9sbG93IG1lIG9u
+IFdlYiIgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0dpdGh1
+Yi0lMjNFNDQwNUYuc3ZnPyZzdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289Z2l0
+aHViJmxvZ29Db2xvcj13aGl0ZSIvPgogICAgPC9hPiAgCjwvcD4KCjxwIGFs
+aWduPSJjZW50ZXIiPgogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnlvdXR1YmUu
+Y29tL0BhemthZGV2P3N1Yl9jb25maXJtYXRpb249MSI+CiAgICA8aW1nIGFs
+dD0ieW91dHViZSBzdWJzY3JpYmVycyIgdGl0bGU9IlN1YnNjcmliZSB0byBt
+eSBZb3VUdWJlIGNoYW5uZWwiIHNyYz0iaHR0cHM6Ly9jdXN0b20taWNvbi1i
+YWRnZXMuZGVtb2xhYi5jb20veW91dHViZS9jaGFubmVsL3N1YnNjcmliZXJz
+L1VDOTI4LUY4SGVualpEMXpOZE1ZNDJ2QT9jb2xvcj0lMjNFMDVENDQmbGFi
+ZWw9U1VCU0NSSUJFJmxvZ289dmlkZW8mbG9nb0NvbG9yPXdoaXRlJnN0eWxl
+PWZvci10aGUtYmFkZ2UmbGFiZWxDb2xvcj1DRTQ2MzAiLz48L2E+CiAgPGEg
+aHJlZj0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF6a2FkZXYiPgogICAg
+PGltZyBhbHQ9InlvdXR1YmUgdmlld3MiIHRpdGxlPSJZb3VUdWJlIHZpZXdz
+IiBzcmM9Imh0dHBzOi8vY3VzdG9tLWljb24tYmFkZ2VzLmRlbW9sYWIuY29t
+L3lvdXR1YmUvY2hhbm5lbC92aWV3cy9VQzkyOC1GOEhlbmpaRDF6TmRNWTQy
+dkE/Y29sb3I9JTIzRTFBRDBFJmxvZ289dmlkZW8mbG9nb0NvbG9yPXdoaXRl
+JnN0eWxlPWZvci10aGUtYmFkZ2UmbGFiZWxDb2xvcj1DNzk2MDAiLz48L2E+
+IAogIDxhIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9hemthZGV2P3RhYj1y
+ZXBvc2l0b3JpZXMmc29ydD1zdGFyZ2F6ZXJzIj4KICAgIDxpbWcgYWx0PSJ0
+b3RhbCBzdGFycyIgdGl0bGU9IlRvdGFsIHN0YXJzIG9uIEdpdEh1YiIgc3Jj
+PSJodHRwczovL2N1c3RvbS1pY29uLWJhZGdlcy5kZW1vbGFiLmNvbS9naXRo
+dWIvc3RhcnMvYXprYWRldj9jb2xvcj01NTk2MGMmc3R5bGU9Zm9yLXRoZS1i
+YWRnZSZsYWJlbENvbG9yPTQ4ODIwNyZsb2dvPXN0YXIiLz48L2E+CiAgPGEg
+aHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL0F6a2FkZXY/dGFiPWZvbGxvd2Vy
+cyI+CiAgICA8aW1nIGFsdD0iZm9sbG93ZXJzIiB0aXRsZT0iRm9sbG93IG1l
+IG9uIEdpdGh1YiIgc3JjPSJodHRwczovL2N1c3RvbS1pY29uLWJhZGdlcy5k
+ZW1vbGFiLmNvbS9naXRodWIvZm9sbG93ZXJzL0F6a2FkZXY/Y29sb3I9MjM2
+YWQzJmxhYmVsQ29sb3I9MTE1NWJhJnN0eWxlPWZvci10aGUtYmFkZ2UmbG9n
+bz1wZXJzb24tYWRkJmxhYmVsPUZvbGxvdyZsb2dvQ29sb3I9d2hpdGUiLz48
+L2E+CjwvcD4KCiMjIERFTU8KCgojIyBUVVRPUklBTCBWSURFTwoKLS0tCgoj
+IyBMaW1pdGF0aW9uCgpEaWthcmVuYWthbiBHcmF0aXNhbiBQcm9ncmFtIGlu
+aSBtZW1pbGlraSBsaW1pdAoKMS4gTWF4IENsaWVudCAoNCkKMi4gQWRhIElr
+bGFuCjMuIFdhdGVybWFyayBTZXRpYXAgRmVhdHVyZQoKIyMgRkVBVFVSRVMK
+CjEuIFJlcGVhdCBNZXNzYWdlCjIuIEFGSwozLiBDaGF0Ym90IGF1dG8gcmVw
+bHkKCgojIyBDYXJhIFJ1biAvIERlcGxveQpVbnR1ayBydW4gcHJvZ3JhbSBp
+bmkgcGFzdGlrYW4ga2FtdSBtZW5naW5zdGFsbAoKMS4gW0RvY2tlcl0oaHR0
+cHM6Ly9kb2NrZXIuY29tLykKCkJ1a2EgVGVybWluYWwKCi0gQnVpbGQKICAK
+YGBgYmFzaApzdWRvIGRvY2tlciBidWlsZCAtdCBnbHhfd2hhdHNhcHBfdXNl
+cmJvdCAuCmBgYAoKLSBSdW4KICBTZWJlbHVtIHJ1biBwYXN0aWthbiBrYW11
+IHN1ZGFoIGJ1aWxkIGRhaHVsdQpgYGBiYXNoCnN1ZG8gZG9ja2VyIHJ1biAt
+ZCAtLW5ldHdvcmsgaG9zdCAtLW1lbW9yeT0iMWciIC0tbWVtb3J5LXN3YXA9
+IjFnIiAtLXJlc3RhcnQgYWx3YXlzIC0tbmFtZSBnbHhfd2hhdHNhcHBfdXNl
+cmJvdCAtdiAkKHB3ZCk6L2FwcCBnbHhfd2hhdHNhcHBfdXNlcmJvdApgYGAK
+Ci0gUmVzdGFydAogIEppa2Ega2FtdSBpbmdpbiBtZW5nZ2FudGkgY29uZmln
+IGRlbmdhbiB5YW5nIGJhcnUgc2lsYWhrYW4gcmVzdGFydCB5YQpgYGBiYXNo
+IApzdWRvIGRvY2tlciByZXN0YXJ0IGdseF93aGF0c2FwcF91c2VyYm90CmBg
+YAoKLSBTdG9wCiAgCmBgYGJhc2ggCnN1ZG8gZG9ja2VyIHN0b3AgZ2x4X3do
+YXRzYXBwX3VzZXJib3QKYGBgCg==
 
-Whatsapp userbot gratis dengan banyak feature
-
-
-<h3 align="center">
-  GLX TELEGRAM USERBOT BY AZKADEV
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
-</h3>
-
-<!-- Typing SVG by azkadev - https://github.com/azkadev/readme-typing-svg -->
-<p align="center">
-<a href="https://github.com/azkadev">
-        <img src="https://telegra.ph/file/e90bdeab8390b8c0d9df2.png" alt="Specta"
-            width="312"
-            height="312">
-    </a>
-</p>
-
-<!-- Social icons section -->
-<p align="center">   
-  <a href="https://youtube.com/@azkadev">
-    <img alt="youtube" title="Follow me on Youtube" src="https://img.shields.io/badge/Youtube-%23E4405F.svg?&style=for-the-badge&logo=youtube&logoColor=white"/>
-    </a>
-  <a href="https://t.me/azkadev">
-    <img alt="telegram" title="Follow me on Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)"/>
-    </a> 
-  <a href="https://azkadev.netlify.app/">
-    <img alt="Website" title="Follow me on Web" src="https://img.shields.io/badge/Website-%23E4405F.svg?&style=for-the-badge&logo=firefox&logoColor=white"/>
-    </a>  
-  <a href="https://github.com/azkadev">
-    <img alt="Github" title="Follow me on Web" src="https://img.shields.io/badge/Github-%23E4405F.svg?&style=for-the-badge&logo=github&logoColor=white"/>
-    </a>  
-</p>
-
-<p align="center">
-  <a href="https://www.youtube.com/@azkadev?sub_confirmation=1">
-    <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UC928-F8HenjZD1zNdMY42vA?color=%23E05D44&label=SUBSCRIBE&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"/></a>
-  <a href="https://www.youtube.com/@azkadev">
-    <img alt="youtube views" title="YouTube views" src="https://custom-icon-badges.demolab.com/youtube/channel/views/UC928-F8HenjZD1zNdMY42vA?color=%23E1AD0E&logo=video&logoColor=white&style=for-the-badge&labelColor=C79600"/></a> 
-  <a href="https://github.com/azkadev?tab=repositories&sort=stargazers">
-    <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/azkadev?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
-  <a href="https://github.com/Azkadev?tab=followers">
-    <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Azkadev?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
-</p>
-
-## DEMO
-
-
-## TUTORIAL VIDEO
-
----
-
-## Limitation
-
-Dikarenakan Gratisan Program ini memiliki limit
-
-1. Max Client (4)
-2. Ada Iklan
-3. Watermark Setiap Feature
-
-## FEATURES
-
-1. Repeat Message
-2. AFK
-3. Chatbot auto reply
-
-
-## Cara Run / Deploy
-Untuk run program ini pastikan kamu menginstall
-
-1. [Docker](https://docker.com/)
-
-Buka Terminal
-
-- Build
-  
-```bash
-sudo docker build -t glx_whatsapp_userbot .
-```
-
-- Run
-  Sebelum run pastikan kamu sudah build dahulu
-```bash
-sudo docker run -d --network host --memory="1g" --memory-swap="1g" --restart always --name glx_whatsapp_userbot -v $(pwd):/app glx_whatsapp_userbot
-```
-
-- Restart
-  Jika kamu ingin mengganti config dengan yang baru silahkan restart ya
-```bash 
-sudo docker restart glx_whatsapp_userbot
-```
-
-- Stop
-  
-```bash 
-sudo docker stop glx_whatsapp_userbot
-```
+<!-- START GLOBAL CORPORATION -->
+404: Not Found
+<!-- END GLOBAL CORPORATION -->
